@@ -1,67 +1,41 @@
-# proyecto_7_ingenieria_software
-"infocar" es una aplicación que presenta datos esenciales sobre automóviles, tales como precio, año del modelo, descripción del modelo, estado, motor (cilindros y combustible), kilometraje, tipo de transmisión, categoría del vehículo, color de la carrocería, si es 4x4, la fecha de publicación del anuncio y su duración.
+# 🚗 Infocar: Interactive Vehicle Market Analytics Dashboard
 
-# PROYECTOS INTEGRADOS: ANÁLISIS DE DATOS Y DESPLIEGUE WEB
+## 🎯 Project Overview
+**Infocar** is a full-stack data application designed to visualize and analyze essential automotive market data. This project bridges the gap between **Data Analysis** and **Software Engineering**, demonstrating proficiency in building interactive interfaces, managing version control via Git, and deploying live solutions to the cloud.
 
-## RESUMEN DEL PROYECTO
-Este repositorio alberga un conjunto de proyectos que demuestran habilidades clave en ciencia de datos e ingeniería de software. 
-El trabajo se enfoca en el análisis de un conjunto de datos de anuncios de venta de coches para construir una aplicación web interactiva. 
-A lo largo del desarrollo, se aplicaron:
-- Prácticas esenciales de Git y GitHub para el control de versiones
-- Gestión de entornos virtuales de Python
-- Despliegue de una solución en un servicio en la nube.
 
-## OBJETIVO
-El objetivo principal es aplicar los conocimientos y habilidades adquiridos en la manipulación de datos, el análisis exploratorio y el desarrollo de aplicaciones web. Esto se logra mediante:
-- La creación y despliegue de un cuadro de mando (dashboard) interactivo.
-- La implementación de un flujo de trabajo profesional para el control de versiones con Git y GitHub.
-- La gestión de entornos virtuales para asegurar la portabilidad del proyecto.
-- La creación de un portafolio de proyectos para demostrar habilidades técnicas.
 
-## METODOLOGÍA DE ANÁLISIS
-### 1. DESCRIPCIÓN DE LOS DATOS
-Se utilizó el conjunto de datos vehicles_us.csv, que contiene información detallada sobre anuncios de venta de coches incluyendo:
-- Precio
-- Año
-- Condición
-- Kilometraje
-- Tipo de combustible y más.
+## 🛠️ Software Engineering & Environment
+Beyond the analysis, this project follows professional software development standards:
+* **Environment Management:** Implemented isolated virtual environments to ensure reproducibility.
+* **Dependency Control:** Systematic management of libraries using `requirements.txt` for seamless cloud installation.
+* **Version Control:** Professional Git workflow, including atomic commits and remote repository management on GitHub.
+* **Cloud Deployment:** Fully automated deployment hosted on **Render.com**, synchronized with the main repository.
 
-### 2. PREPROCESAMIENTO DE DATOS
-- Entorno Virtual, para el desarrollo del proyecto se configuró un entorno virtual de Python con las librerías necesarias: 
-  - Pandas
-  - Streamlit
-  - Plotly-express
+## 📊 Interactive Data Features
+The dashboard allows users to interactively explore the `vehicles_us.csv` dataset, which includes price, model year, condition, fuel type, and mileage metrics.
 
-- Análisis Exploratorio de Datos (EDA):
-  - Se creó un Jupyter Notebook (EDA.ipynb) para realizar un análisis exploratorio del conjunto de datos.
-  - En este paso, se experimentó con visualizaciones usando plotly-express para comprender la distribución y las relaciones en los datos.
+### Key Visualizations:
+* **Dynamic Histograms:** Real-time distribution analysis of the "Odometer" (mileage) column to identify market supply patterns.
+* **Price vs. Mileage Analysis:** Interactive scatter plots generated with **Plotly Express** to visualize the correlation between vehicle wear and market value.
+* **Feature Filtering:** Toggle-based visualization components for a clean and efficient User Experience (UX).
 
-### 3. DESARROLLO DE LA APLICACIÓN WEB
-Cuadro de Mando: Se desarrolló una aplicación web interactiva utilizando la librería streamlit. La aplicación incluye:
-- Un encabezado claro.
-- Un botón (o casilla de verificación) para generar un histograma de la columna de odómetro.
-- Un botón (o casilla de verificación) para generar un gráfico de dispersión de la relación entre el precio y el kilometraje.
-- Despliegue: La aplicación se desplegó en un servicio en la nube (Render), configurando los comandos de instalación de dependencias y de ejecución de la aplicación.
 
-## CONCLUSIONES PRINCIPALES
-El proyecto demostró la capacidad de integrar el análisis de datos con el desarrollo web para crear una herramienta interactiva y funcional.
-Se aplicaron con éxito las mejores prácticas de ingeniería de software, como el uso de requirements.txt para gestionar dependencias y el control de versiones con Git.
-La aplicación web es accesible públicamente, lo que valida el proceso de despliegue en la nube y la configuración del entorno.
-El repositorio sirve como un ejemplo práctico de cómo organizar, documentar y presentar un proyecto de datos completo.
 
-## TECNOLOGÍAS UTILIZADAS
-- Python
-- Git y GitHub
-- Streamlit
-- Pandas
-- Plotly-Express
-- Jupyter Notebook
-- Render.com
+## 🛠️ Tech Stack
+* **Web Framework:** Streamlit (App Architecture).
+* **Data Manipulation:** Pandas.
+* **Interactive Graphics:** Plotly-Express.
+* **Version Control:** Git & GitHub.
+* **Deployment/PaaS:** Render.com.
+* **Development Environment:** Jupyter Notebook (EDA phase).
 
-## Enlace a la aplicación en Render:
+## 📈 Engineering Insights & Conclusions
+* **Integration:** Successfully integrated a data pipeline into a web interface, making complex data accessible to non-technical users.
+* **Scalability:** The use of `requirements.txt` and cloud-native deployment ensures the app can be updated and scaled efficiently.
+* **UX/UI:** Demonstrated ability to create data products that prioritize user interaction and clarity over static reporting.
 
-## Enlaces importantes:
+## 🔗 Live Links
+* **Live Application:** [Infocar on Render](https://infocar.onrender.com/)
+* **Project Repository:** [GitHub Source Code](https://github.com/mapace22/infocar.git)
 
-* **Repositorio de GitHub:** [https://github.com/mapace22/infocar.git](https://github.com/mapace22/infocar.git)
-* **Aplicación web en Render:** [https://infocar.onrender.com/](https://infocar.onrender.com/)
